@@ -43,12 +43,8 @@ typedef struct buffer_s
 typedef struct converter_s
 {
 	unsigned char specifier;
-<<<<<<< HEAD
-	unsigned int (*func)(va_list, buffer_t *, unsigned char, int, int, unsigned char);
-=======
 	unsigned int (*func)(va_list, buffer_t *,
-unsigned char, int, int, unsigned char);
->>>>>>> 6f021581e684bd4e6e33c420d385e5f03a691f6a
+			unsigned char, int, int, unsigned char);
 } converter_t;
 
 /**
